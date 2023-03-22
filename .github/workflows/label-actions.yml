@@ -8,7 +8,7 @@ jobs:
   reaction:
     runs-on: ubuntu-latest
     steps:
-      - uses: dessant/label-actions@v2.1.1
+      - uses: dessant/label-actions@b1bcdcd8ea14a0234bb117f08fae083a8baf8d56 # v2.1.1
         with:
           github-token: ${{ github.token }}
           process-only: 'issues'
